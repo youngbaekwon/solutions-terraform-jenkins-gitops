@@ -16,7 +16,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "civic-genre-337401-tfstate"
+    bucket = "PROJECT_ID-tfstate"
     prefix = "jenkins"
   }
 }
